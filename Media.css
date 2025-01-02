@@ -1,0 +1,78 @@
+/* 1300px = 81em */
+@media(max-width: 81rem){
+    html{
+        font-size: 56.25%;
+    }
+}
+
+/* 1184px / 16px = 74rem */
+@media(max-width: 74rem){
+    .hero_text{
+        text-align: center;
+    }
+    
+    .grid_col_4 {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 4.8rem;
+    }
+
+    .team_text_box {
+        text-align: center;
+        padding: 0 3.6rem;
+    }
+
+    .grid-col-3 {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 4.8rem;
+    }
+}
+
+/* 944px / 16px = 59rem */
+@media(max-width: 59rem){
+    html{
+        font-size: 50%;
+    }
+}
+
+/* 704px = 44em */
+@media(max-width: 44rem){
+    .grid_col_4,
+    .grid-col-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .services_text_box {
+        text-align: center;
+    }
+
+    .testimonial1 {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 1.8rem;
+    }
+
+    .footer_text_box {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 480px = 30em */
+@media(max-width: 30rem){
+    .client_heading {
+        text-align: center;
+    }
+
+    .services_text_box {
+        text-align: center;
+        padding: 0 1.8rem;
+    }
+
+    .companies {
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+
+    .footer_text_box{
+        grid-template-columns: 1fr;
+    }
+}
